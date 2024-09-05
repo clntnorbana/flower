@@ -1,0 +1,130 @@
+body {
+  background-color: #fadede;
+  padding: 0;
+  margin: 0;
+}
+
+.text {
+  padding: 0 20px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  color: #e78895;
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+p {
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  font-size: 0.7rem;
+  opacity: 0.5;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rose {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin-left: 100px;
+}
+
+.petal {
+  width: 50px;
+  height: 50px;
+  background-color: #d37676;
+  border-radius: 0px 50%;
+  position: absolute;
+  z-index: 2;
+  transform-origin: bottom right;
+  box-shadow: 0 0 10px #d1123f;
+}
+
+.petal:nth-child(2) {
+  background-color: #d37676;
+  left: -10px;
+  transform: rotate(90deg);
+  transform-origin: right bottom;
+}
+
+.petal:nth-child(3) {
+  background-color: #ff204e;
+  transform-origin: bottom right;
+  left: 10px;
+  top: -20px;
+  z-index: 1;
+  height: 40px;
+  width: 40px;
+}
+
+.petal:nth-child(4) {
+  background-color: #ff204e;
+  transform: rotate(90deg);
+  transform-origin: right bottom;
+  top: -20px;
+  left: 0;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+}
+
+.petal:nth-child(5) {
+  width: 50px;
+  height: 50px;
+  border: 20px;
+  top: -30px;
+  z-index: 0;
+  left: 20px;
+  background-color: #dc143c;
+}
+
+.branch {
+  position: absolute;
+  top: 80px;
+  left: -105px;
+}
+
+.stem {
+  width: 200px;
+  height: 80px;
+  background-color: transparent;
+  border: 8px solid #b99470;
+  border-color: #b99470 transparent transparent transparent;
+  transform: rotate(100deg);
+  border-radius: 50%;
+}
+
+.leaf {
+  width: 40px;
+  height: 30px;
+  border-radius: 0px 50%;
+  background-color: #b99470;
+  position: absolute;
+  left: 110px;
+  top: 30px;
+  z-index: 50;
+}
+
+.leaf:nth-child(2) {
+  width: 30px;
+  height: 20px;
+  top: 0;
+  left: 152px;
+  transform: rotate(120deg);
+}
