@@ -57,7 +57,7 @@ p {
 .petal {
   width: 50px;
   height: 50px;
-  background-color: #d37676;
+  background-color: #e57373;
   border-radius: 0px 50%;
   position: absolute;
   z-index: 2;
@@ -66,14 +66,14 @@ p {
 }
 
 .petal:nth-child(2) {
-  background-color: #d37676;
+  background-color: #e57373;
   left: -10px;
   transform: rotate(90deg);
   transform-origin: right bottom;
 }
 
 .petal:nth-child(3) {
-  background-color: #ff204e;
+  background-color: #c8102e;
   transform-origin: bottom right;
   left: 10px;
   top: -20px;
@@ -83,7 +83,7 @@ p {
 }
 
 .petal:nth-child(4) {
-  background-color: #ff204e;
+  background-color: #c8102e;
   transform: rotate(90deg);
   transform-origin: right bottom;
   top: -20px;
@@ -100,7 +100,7 @@ p {
   top: -30px;
   z-index: 0;
   left: 20px;
-  background-color: #dc143c;
+  background-color: #8b0000;
 }
 
 .petal2:not(:nth-child(3)):not(:nth-child(4)):not(:nth-child(5)) {
